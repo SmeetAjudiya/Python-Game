@@ -1,2 +1,2 @@
 # Python-Game
-Created a rock paper sissor game in python
+Created a rock paper scissor game and numbers game in python
