@@ -1,10 +1,11 @@
 import random
-game_list = ['r','p','s']
-computer = random.choice(game_list)
-#print(computer)
+#game_list = ['r','p','s']
+#computer = random.choice(game_list)
 while True :
     user = input("Enter your choice r,p or s (Input anything else to end):")
-
+    game_list = ['r','p','s']
+    computer = random.choice(game_list)
+    print(computer)
     if user == computer:
         print("TIE")
     elif user == 'r' and computer == 's':
